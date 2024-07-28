@@ -47,13 +47,19 @@
     </nav>
     
     <div class="container">
-      <h1>About Me</h1>
-      <h2>Deny에요. </h2>
-      <p>PYTHON, CSS, HTML을 잘하고 싶어요. </p>
-      <button onclick="whatTimeIsIt()">현재시간</button>
-      <hr />
-      <a href="index.html">첫화면으로 가기</a>
-      <img src="./images/ItsMe.JPEG" height="400px">
+      <div class="row">
+        <div class="col-9">
+          <h1>About Me</h1>
+          <h2>Deny에요. </h2>
+          <p>Django, CSS, HTML로 재미있는 웹사이트를 만들고있어요. </p>
+          <button onclick="whatTimeIsIt()">현재시간</button>
+          <hr />
+          <a href="index.html">첫화면으로 가기</a>
+        </div>
+        <div class="col-3">
+          <img src="./images/ItsMe.JPEG" class="img-fluid w-100">
+        </div>
+      </div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
