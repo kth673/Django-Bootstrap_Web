@@ -6,3 +6,6 @@ class Post(models.Model):
   
   created_at = models.DateTimeField()
   # athor : 추후 작성 예정
+  
+  def __str__(self):
+    return f'[{self.pk}]{self.title}'
